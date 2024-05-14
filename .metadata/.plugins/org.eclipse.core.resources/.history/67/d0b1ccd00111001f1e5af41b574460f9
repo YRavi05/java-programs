@@ -1,0 +1,26 @@
+package myCodes;
+
+			/** Method Overriding:
+			 * 	RunTime Polymorphism or Static Binding
+			 * 	can achieve by Inheritance concept
+			 * 
+			 * 	Rules:
+			 * 	Both Parent Class and Child Class method name should be same
+			 * 	Static and Final Methods cannot be Overridden
+			 * 
+			 * 	child method will execute first as we are creating object for child.
+			 */
+
+class ChildRP extends MethodOverriding_Parent{
+	void ParentRP() {
+		System.out.println("child RunTime Polymorphism");
+	}
+}
+public class MethodOverridng_concept {
+			
+	public static void main(String[] args) {
+		ChildRP crp = new ChildRP();
+		crp.ParentRP();
+	}
+
+}

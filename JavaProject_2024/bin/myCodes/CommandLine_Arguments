@@ -1,0 +1,24 @@
+    need to write a java program in note pad:
+    public class Mini{
+    	public static void main(String[] args){
+    	
+    		/**here main method is having array of type String in it as arguments
+    		args is nothing but a variable of array type of string
+    		so array index value starts from 0*/
+    		
+    		int a = Integer.parseInt(args[0]);
+    		System.out.println(a);
+    		
+    		here we are converting string variable(args[0]) to int so we are using Integer class and for conversion we have method called 
+    		parseInt in Integer class.
+    		
+    		it will convert string value into int and store the value in variable a 
+    		
+    	}
+    }
+    
+    save file with extension .java
+    then we have to open cmd
+    cd location of the java class
+    javac filename.java
+    java filename value for a ----> getting user inputs in run time

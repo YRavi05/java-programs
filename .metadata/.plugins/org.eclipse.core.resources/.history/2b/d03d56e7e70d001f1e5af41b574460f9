@@ -1,0 +1,31 @@
+package myCodes;
+
+public class ElseIfladder_and_Switch {
+
+	public static void main(String[] args) {
+		/** else if ladder we can use if we have multiple choices
+		 * first if true it will skip remaining options 
+		 * first if false it will skip first if and goes to else if
+		 * all if and else if ---> false , else will execute directly
+		 * Example comparison of two numbers
+		 */
+		
+		// else if ladder
+		int a = 10;
+		int b = 10;
+		if(a>b) {
+			System.out.println("a is greater than b is true");
+		}
+		else if(a<b) {
+			System.out.println("b is greater than a is true");
+		}
+		else if(a!=b) {
+			System.out.println(" a is not equal to b");
+		}
+		else {
+			System.out.println("a is equal to b");
+		}
+	}
+	
+
+}

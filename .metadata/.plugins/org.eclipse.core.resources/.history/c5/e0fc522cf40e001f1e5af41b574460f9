@@ -1,0 +1,30 @@
+package myCodes;
+
+import java.util.Scanner;
+
+public class ForEach_Loop {
+
+	public static void main(String[] args) {
+		/** for each loop will not have any condition
+		 *  can use it when we wish to print all elements of an array
+		 *  can't use it if we wish to print some elements of an array 
+		 *  (Example: only 3 elements in an array to print) ----> to this scenario we can use normal for loop
+		 *  for collections we will use for each loop
+		 */
+		
+		//Array:
+		int a [] = new int[3];
+		Scanner s = new Scanner(System.in);
+		for(int val : a) {
+			System.out.println("print value");
+			a[0]=s.nextInt();
+			a[1]=s.nextInt();
+			a[3]=s.nextInt();
+			
+		}
+		for (int val : a) {
+			System.out.print(val + " ");
+		}
+	}
+
+}

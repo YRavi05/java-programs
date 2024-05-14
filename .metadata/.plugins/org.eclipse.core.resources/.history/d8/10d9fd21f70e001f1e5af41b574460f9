@@ -1,0 +1,29 @@
+package myCodes;
+
+public class JaggedArray {
+
+	public static void main(String[] args) {
+		/** Jagged Array:
+		 *  no of columns of each row will not be same
+		 *  Example: 2, 3
+		 *  		 4, 5, 6
+		 *  will have rows and columns like two dimensional array
+		 *  we are iterating i only so we can check i length so j<a[i].length not j<a[index value].length
+		 *  
+		 *  if we know the row size and not known the column size we have to create each row as an individual object like:
+		 *  a[0] = new int[2]; a[1] = new int[4];
+		 */
+		
+		// simple Jagged Array
+		
+		int a[][] = {{1,2},{3,4,5}};
+		for(int i = 0; i<a.length; i++) {
+			for(int j = 0; j<a[i].length; j++) {
+				System.out.print(a[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

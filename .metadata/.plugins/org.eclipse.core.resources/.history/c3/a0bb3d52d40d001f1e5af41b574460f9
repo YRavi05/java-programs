@@ -1,0 +1,20 @@
+package myCodes;
+
+public class ArithmeticOperators_and_TypeCasting {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		int c = a+b;
+		int d = a-b;
+		int e = a*b;
+		int f = a/b; // Quotient
+		int g = a%b; // reminder
+		System.out.println("addition: " + c);
+		System.out.println("Subtraction: " + d);
+		System.out.println("multiplication: " + e);
+		System.out.println("division: " + f);
+		System.out.println("modulus: " + g);
+	}
+
+}

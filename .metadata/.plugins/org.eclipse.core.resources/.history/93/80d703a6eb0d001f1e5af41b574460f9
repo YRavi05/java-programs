@@ -1,0 +1,18 @@
+package myCodes;
+
+public class Loops_or_IterativeStatements {
+
+	public static void main(String[] args) {
+		/** for loop: it will execute till the limited condition mentioned in loop
+		 *  important 3 steps:
+		 *  initialization of variable
+		 *  condition
+		 *  increment or decrement
+		 */
+		
+		for(int a = 0; a<=5; a++) {
+			System.out.println(a);
+		}
+	}
+
+}

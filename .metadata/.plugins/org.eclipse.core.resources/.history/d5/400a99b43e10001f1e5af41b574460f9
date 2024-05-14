@@ -1,0 +1,22 @@
+package myCodes;
+			/** VARARGS: Variable length arguments
+			 * 	it will accept 0 to more values.
+			 *  and it will work like an array.it's variable will have elements like an array iterate in for each loop.
+			 *  as because we varargs working like an array we have to use for each loop here.
+			 *  Syntax: public int add(int ... a){ }
+			 *  Rule: varargs should be last parameter of method.
+			 *  purpose: it will reduce method creation multiple times as method overloading as we are performing operations
+			 *  
+			 */
+public class Variable_length_Arguments {
+			int sum;
+		public int add(int ... a) {
+			 for(int val:a)
+				 sum = val; 
+				 return sum;
+		}
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package myCodes;
+
+public class PatternPrograms_11_05 {
+
+		/** Patterns : we use always Nested Loop.
+		 *  why: we are printing on pattern multiple time 
+		 *  always patters will have rows and columns
+		 *  i denotes rows j denotes column in below program
+		 *  rows columns index starts from 0 and  length starts from 1
+		 *  hence length - 1 = index
+		 *  
+		 *  Coding Standard:
+		 *  we should not use <= or >= in loops we should only use either < or > alone.
+		 */
+	public static void main(String[] args) {
+		
+		for(int i = 0; i<4; i++) {
+			for(int j = 0; j<5; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

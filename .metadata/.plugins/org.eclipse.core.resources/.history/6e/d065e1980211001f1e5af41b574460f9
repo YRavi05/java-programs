@@ -1,7 +1,0 @@
-package myCodes;
-
-public class MethodOverriding_Parent {
-	public void ParentRP() {
-		System.out.println("Parent RunTime Polymorphism");
-	}
-}
